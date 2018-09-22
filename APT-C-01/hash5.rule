@@ -1,0 +1,9 @@
+import "hash"
+
+rule PoisonVine_hash5 {
+    meta:
+        description = "Backdoor.Win32.ZxShell"
+
+	condition:
+		hash.md5(0, filesize) == "07561810d818905851ce6ab2c1152871"
+}

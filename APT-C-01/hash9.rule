@@ -1,0 +1,9 @@
+import "hash"
+
+rule PoisonVine_hash9 {
+    meta:
+        description = "Dropper.Win32.FakeDoc"
+
+	condition:
+		hash.md5(0, filesize) == "8c9670fbe68ab8719077d480242e6b9e"
+}

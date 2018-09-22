@@ -1,0 +1,9 @@
+import "hash"
+
+rule PoisonVine_hash10 {
+    meta:
+        description = "Backdoor.Win32.HttpBot"
+
+	condition:
+		hash.md5(0, filesize) == "6a37ce66d3003ebf04d249ab049acb22"
+}

@@ -1,0 +1,9 @@
+import "hash"
+
+rule PoisonVine_hash12 {
+    meta:
+        description = "Dropper.Win32.FakeFolder"
+
+	condition:
+		hash.md5(0, filesize) == "cbeebf063f914eb3b5eba8b37302189f"
+}

@@ -1,0 +1,9 @@
+import "hash"
+
+rule PoisonVine_hash4 {
+    meta:
+        description = "virus.exp.20120158"
+
+	condition:
+		hash.md5(0, filesize) == "19365fddc2fca8735d51def001704db3"
+}

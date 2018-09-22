@@ -1,0 +1,9 @@
+import "hash"
+
+rule PoisonVine_hash24 {
+    meta:
+        description = "PoisonIvy Configuration File"
+
+	condition:
+		hash.md5(0, filesize) == "ae004a5d4f1829594d830956c55d6ae4"
+}

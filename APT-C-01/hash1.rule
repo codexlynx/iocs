@@ -1,0 +1,6 @@
+import "hash"
+
+rule PoisonVine_hash1 {
+	condition:
+		hash.md5(0, filesize) == "a5d9edaa1b6cf820d54c19b2c6bd246d"
+}
