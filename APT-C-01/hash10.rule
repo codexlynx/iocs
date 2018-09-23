@@ -1,6 +1,6 @@
 import "hash"
 
-rule PoisonVine_hash10 {
+rule PoisonIvy_hash10 {
     meta:
         description = "Backdoor.Win32.HttpBot"
 

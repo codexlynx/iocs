@@ -1,6 +1,6 @@
 import "hash"
 
-rule PoisonVine_hash30 {
+rule PoisonIvy_hash30 {
     meta:
         description = "PoisonIvy Configuration File"
 

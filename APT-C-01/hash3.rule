@@ -1,6 +1,6 @@
 import "hash"
 
-rule PoisonVine_hash3 {
+rule PoisonIvy_hash3 {
     meta:
         description = "Backdoor.Win32.FakeWinupdate"
 

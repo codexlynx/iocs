@@ -1,6 +1,6 @@
 import "hash"
 
-rule PoisonVine_hash14 {
+rule PoisonIvy_hash14 {
     meta:
         description = "virus.exp.20146352"
 

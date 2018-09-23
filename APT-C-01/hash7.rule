@@ -1,6 +1,6 @@
 import "hash"
 
-rule PoisonVine_hash7 {
+rule PoisonIvy_hash7 {
     meta:
         description = "Backdoor.Win32.PoisonIvy"
 

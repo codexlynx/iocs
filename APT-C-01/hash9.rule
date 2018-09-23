@@ -1,6 +1,6 @@
 import "hash"
 
-rule PoisonVine_hash9 {
+rule PoisonIvy_hash9 {
     meta:
         description = "Dropper.Win32.FakeDoc"
 
